@@ -69,8 +69,8 @@ client.on('ready',  () => {
   console.log('By : 3bker');
 });
 
-const developers = ['حط الايدي حقك هنا'];
-const adminprefix = "البرفكس حقك";
+const developers = ['673224738188951592'];
+const adminprefix = "$";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
